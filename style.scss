@@ -156,6 +156,10 @@ img {
 
 #header-text{
 	margin: -40px 0 0 0;
+    
+	@include mobile{
+   	 margin-top: 0px;
+    }
 }
 
 .site-avatar {
@@ -183,17 +187,23 @@ img {
   font-weight: 300;
   font-size: 40px;
   letter-spacing: 1px;
+  @include mobile {
+	  font-size:20px;
+  }
 }
 
 .site-description {
   margin: -25px 0 0 0;
   color: $gray;
-  font-size: 25px;
+  font-size: 15px;
 
   @include mobile {
+	 font-size: 15px;
     margin: 3px 0;
   }
 }
+
+
 
 
 //
@@ -250,19 +260,6 @@ nav {
   }
 }
 
-@media only screen and (max-width: 950px) {
-   .cf7_custom_style_1 {
-      padding-left: 10%;
-      padding-right: 10%;
-   }
-}
-
-@media only screen and (max-width: 600px) {
-   .cf7_custom_style_1 {
-      padding-left: 0;
-      padding-right: 0;
-   }
-}
 
 //
 // .main
