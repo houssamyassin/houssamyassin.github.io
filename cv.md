@@ -35,7 +35,7 @@ permalink: /cv/
 
 ---
 
-#### 2019--2017.
+#### 2013--2017.
 **Bachelor of Science** with Honors in *Mathematical Physics*, University of Alberta.
 
 *Projects:*
