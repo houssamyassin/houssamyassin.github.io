@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -51,11 +51,12 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+		   Copyright © Houssam Yassin 2021.
           {% include svg-icons.html %}
         </footer>
       </div>
     </div>
-
+	
     {% include analytics.html %}
   </body>
 </html>
