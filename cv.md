@@ -45,14 +45,16 @@ permalink: /cv/
 > {: reversed="reversed"}
 
 *Advisors:*
-> 3. [Bruce Sutherland](https://sites.ualberta.ca/~bsuther/).
-> 2. [Vakhtang Putkaradze](https://sites.ualberta.ca/~putkarad/).
-> 1. [Carsten Krauss](https://sites.ualberta.ca/~carsten/index.html).
+> 3. [Bruce Sutherland](https://sites.ualberta.ca/~bsuther/){:target="_blank"}.
+> 2. [Vakhtang Putkaradze](https://sites.ualberta.ca/~putkarad/){:target="_blank"}.
+> 1. [Carsten Krauss](https://sites.ualberta.ca/~carsten/index.html){:target="_blank"}.
 > {: reversed="reversed"}
 
 ---
 
 # Select Awards.
+
+**2020:** Princeton Energy and Climate Scholar.
 
 **2019:** Geophysical Fluid Dynamics Fellow (Woods Hole Oceanographic Institution).
 
@@ -60,4 +62,4 @@ permalink: /cv/
 
 **2017:** Dean’s Silver Medal in Science (University of Alberta).
 
-**2015--2017:** Three [NSERC USRAs](https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp).
+**2015--2017:** Three [NSERC USRAs](https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp){:target="_blank"}.
