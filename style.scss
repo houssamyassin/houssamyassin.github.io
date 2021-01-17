@@ -15,12 +15,24 @@
 /**************/
 
 #listed{
+<<<<<<< HEAD
 	font: 22px/1.1 'Wremena';
 	h4 {
 	    line-height: 1.2;
 	}
 	p {
 	  margin: 10px 0;
+=======
+    font: 22px/1.1 'Wremena';
+	p {
+	  margin: 7.5px 0;
+	}
+	
+	h4 {
+	  line-height: 1.1;
+	  margin: 1em 0 15px;
+	  
+>>>>>>> master
 	}
 }
 
@@ -40,6 +52,14 @@ body {
   padding: 0 10px;
   width: 100%;
 }
+
+blockquote {
+  color: #darkGray;
+  padding: 0 3em;
+  font: 18px/1.1 'Wremena';
+  margin-top: -10px;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Glacial';
@@ -84,7 +104,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $gray;
   }
 }
 
@@ -296,6 +316,13 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+footer {
+    padding-top: 100px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 13px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
