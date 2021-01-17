@@ -1,0 +1,331 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+
+/**************/
+/* BASE RULES */
+/**************/
+
+#listed{
+<<<<<<< HEAD
+	font: 22px/1.1 'Wremena';
+	h4 {
+	    line-height: 1.2;
+	}
+	p {
+	  margin: 10px 0;
+=======
+    font: 22px/1.1 'Wremena';
+	p {
+	  margin: 7.5px 0;
+	}
+	
+	h4 {
+	  line-height: 1.1;
+	  margin: 1em 0 15px;
+	  
+>>>>>>> master
+	}
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $white;
+  font: 22px/1.4 'Wremena';
+  color: $darkGray;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+blockquote {
+  color: #darkGray;
+  padding: 0 3em;
+  font: 18px/1.1 'Wremena';
+  margin-top: -10px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Glacial';
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 45px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+  margin: 1em 0 15px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $gray;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+#header-text-image{
+ height: 75px;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ margin-top:25px;
+}
+
+#header-text{
+	@include mobile{
+   	 margin-top: 0px;
+    }
+}
+
+.site-avatar {
+  float: center;
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 5 auto;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.site-name {
+	display: block;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: 'Glacial';
+  font-weight: 300;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  
+  position: relative; 
+  top: -35%;
+  
+  @include mobile {
+	  font-size:30px;
+  }
+}
+
+
+
+
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.masthead {
+  padding: 10px 0;
+  border-bottom: 2px solid $black;
+  border-top: 2px solid $black;
+  text-align: center;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+nav {
+  float: none;
+  font-family: 'Glacial';
+  font-size: 30px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $darkGray;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+    }
+  }
+}
+
+
+//
+// .main
+//
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+footer {
+    padding-top: 100px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 13px;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
