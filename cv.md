@@ -25,7 +25,7 @@ permalink: /cv/
 
 ---
 
-#### 2017--2019
+#### 2017--2019.
 
 **Master of Arts** in *Atmospheric & Oceanic Sciences*, Princeton University.
 
