@@ -19,7 +19,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 22px/1.4 'Wremena';
   color: $darkGray;
 }
@@ -62,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 22px;
-  color: $gray;
+  margin: 1em 0 15px;
 }
 
 p {
@@ -70,7 +70,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -151,12 +151,11 @@ img {
  height: 75px;
  display: flex;
  justify-content: center;
+ align-content: center;
  margin-top:25px;
 }
 
 #header-text{
-	margin: -40px 0 0 0;
-    
 	@include mobile{
    	 margin-top: 0px;
     }
@@ -175,7 +174,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 50%;
   }
 }
 
@@ -186,16 +185,21 @@ img {
   font-family: 'Glacial';
   font-weight: 300;
   font-size: 40px;
+  font-weight: bold;
   letter-spacing: 1px;
+  
+  position: relative; 
+  top: -35%;
+  
   @include mobile {
-	  font-size:20px;
+	  font-size:30px;
   }
 }
 
 .site-description {
   margin: -25px 0 0 0;
   color: $gray;
-  font-size: 15px;
+  font-size: 20px;
 
   @include mobile {
 	 font-size: 15px;
