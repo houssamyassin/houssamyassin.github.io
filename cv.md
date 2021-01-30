@@ -17,7 +17,7 @@ permalink: /cv/
 ---
 
 #### Summer 2019.
-[**Fellow**](https://gfd.whoi.edu/archive/program-fellows/){:target="_blank"} of the [Geophysical Fluid Dynamics Program](https://gfd.whoi.edu/gfd-program-profile/){:target="_blank"}, Woods Hole Oceanographic Institution.
+[**Fellow**](https://gfd.whoi.edu/archive/program-fellows/){:target="_blank" rel="noopener"} of the [Geophysical Fluid Dynamics Program](https://gfd.whoi.edu/gfd-program-profile/){:target="_blank" rel="noopener"}, Woods Hole Oceanographic Institution.
 
 *Advisers:* [Ali Mashayek](https://www.mashayek.com){:target="_blank" rel="noopener"} and [Geoff Stanley](https://geoffstanley.github.io/index.html){:target="_blank" rel="noopener"}.
 
