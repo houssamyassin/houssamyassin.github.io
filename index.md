@@ -6,6 +6,6 @@ title: Home
 
 # Welcome.
 
-I am a PhD candidate in the [Program in Atmospheric & Oceanic Sciences](https://aos.princeton.edu){:target="_blank" rel="noopener"} at [Princeton University](https://www.princeton.edu){:target="_blank" rel="noopener"}  where I am advised by [Stephen Griffies](https://stephengriffies.github.io/){:target="_blank" rel="noopener"}. 
+I am a PhD candidate in the [Program in Atmospheric & Oceanic Sciences](https://aos.princeton.edu) at [Princeton University](https://www.princeton.edu)  where I am advised by [Stephen Griffies](https://stephengriffies.github.io/). 
 
-You can reach me at [*hyassin*@**Princeton**.edu](mailto:&#104;&#121;&#097;&#115;&#115;&#105;&#110;&#064;&#080;&#114;&#105;&#110;&#099;&#101;&#116;&#111;&#110;&#046;&#101;&#100;&#117;).
+You can reach me at [*hyassin*@**Princeton**.edu](mailto:hyassin@princeton.edu).
