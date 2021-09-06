@@ -12,7 +12,7 @@ permalink: /cv/
 
 *Adviser:* [Stephen Griffies](https://stephengriffies.github.io/).
 
-*Project:* Boundary dynamics in geophysical wave turbulence.
+*Project:* Geostrophic turbulence with variable stratification.
 
 ---
 
