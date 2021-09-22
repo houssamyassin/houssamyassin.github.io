@@ -11,7 +11,7 @@ I am a PhD candidate in the [Program in Atmospheric & Oceanic Sciences](https://
 You can reach me at [*hyassin*@**Princeton**.edu](mailto:hyassin@princeton.edu).
 
 <center>
-    <video autoplay="autoplay" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" loop="loop" width="566" height="584">
+    <video autoplay="autoplay" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" loop="loop" width="100%">
           <source src="/videos/2D_kf4_s1.mp4" type="video/mp4">
     </video>
 </center>
