@@ -1,0 +1,21 @@
+I"�<h1 id="research">Research</h1>
+
+<h2 id="geostrophic-turbulence">Geostrophic turbulence</h2>
+
+<p>Turbulence in the atmosphere and ocean– at sufficiently large horizontal scales– evolves slowly enough so that the rotation of the Earth is important. In such fluids, currents do not flow from regions with high pressure to regions with low pressure, as in non-rotating fluids. Instead, the rotation of the Earth deflects the flow until a balance is reached in which currents flow along lines of constant pressure. This balance is known as geostrophic balance.</p>
+
+<p>I study geostrophic turbulence – that is, turbulence in fluids that are in approximate geostrophic balance. Questions I am interested in include:</p>
+
+<ul>
+  <li>How does the density stratification and topography impact the resulting turbulence?</li>
+  <li>What is the relationship between the vertical structure of the flow and the distribution of energy across horizontal scales?</li>
+</ul>
+
+<p>These questions turn out to be especially important for upper ocean turbulence at horizontal scales of 1-100 km.</p>
+
+<h2 id="surface-buoyancy-anomalies">Surface buoyancy anomalies</h2>
+
+<p>My PhD dissertation answers the above two questions for a special case when the geostrophic turbulence is due to surface buoyancy anomalies at the ocean surface. By buoyancy anomalies, I mean areas of the surface ocean that are either lighter or denser than the surrounding surface ocean. When these buoyancy anomalies are sufficiently wide, they result in geostrophic currents in the upper ocean.</p>
+
+<p>The theory for such flows is developed in Blumen (1978) and Held et al (1995). However, this theory assumes the density stratification in the</p>
+:ET

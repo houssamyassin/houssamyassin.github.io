@@ -4,6 +4,46 @@ title: Research
 permalink: /research/
 ---
 
-# Coming soon...
+# Research
+>(A brief summary for specialists can be found on the [Publications](/Publications) page. Videos of the [summertime](/videos/jul_scaled_ss1.mp4) and [wintertime](/videos/jan_ss1.mp4) surface quasigeostrophic turbulence are below.)
+
+### Geostrophic turbulence
+
+Turbulence in the atmosphere and ocean--at sufficiently large horizontal scales--evolves slowly enough so that the rotation of the Earth is important. Because of Earth's rotation, air/water does not flow from regions with high pressure to regions with low pressure, as in non-rotating fluids. Instead, the rotation of the Earth deflects the flow until a balance is reached in which atmospheric/oceanic currents flow *along* lines of constant pressure, rather than across them. This balance is known as *geostrophic balance*.
+
+I study geostrophic turbulence--that is, turbulence in fluids that are in approximate geostrophic balance. Questions I am interested in include:
+
+- How does the fluid's density stratification and the topography impact the resulting turbulence? 
+- What is the relationship between the vertical structure of the flow and the distribution of energy across horizontal scales? 
+
+Answering these questions is important for understanding the physics of upper ocean turbulence at horizontal scales of 1-100 km. Turbulence at these horizontal scales is critical for the exchange of heat, carbon, and oxygen between the ocean and atmosphere, and may be important for Earth's climate. However, this turbulence occurs at length scales that are too small to be resolved in global climate models.
+
+### The turbulence of surface buoyancy anomalies
+
+My PhD dissertation answers the above two questions when the geostrophic turbulence is due to buoyancy anomalies at the ocean's surface. By surface buoyancy anomalies, I mean areas of the surface ocean that are either lighter or denser than its surroundings. When these surface buoyancy anomalies are sufficiently wide, they result in geostrophic currents in the upper ocean. 
+
+The theory for such flows is developed in [Blumen (1978)](https://doi.org/10.1175/1520-0469(1978)035<0774:UPVFPI>2.0.CO;2) and [Held et al. (1995)](https://doi.org/10.1017/S0022112095000012). However, this theory assumes that the density stratification does not change with depth. The following animation shows how this turbulence looks like. The animation is from a 400 km by 400 km [`pyqg`](https://github.com/pyqg/pyqg) simulations where red areas indicate lighter fluid whereas blue areas indicate denser fluid.
+<center>
+    <video autoplay="autoplay" loop="loop" width="566" height="584">
+          <source src="/videos/SQG_kf4_s1.mp4" type="video/mp4">
+    </video>
+</center>
 
 
+However the ocean does not have constant density stratification. Indeed, the density stratification in the ocean is depth-dependent and varies strongly with season. In my dissertation, I generalize the theory to account for the vertically variable density stratification. The difference between summertime and wintertime turbulence is striking. 
+
+In summer, the turbulence is diffuse and highly local in space:
+<center>
+    <video autoplay="autoplay" loop="loop" width="566" height="584">
+          <source src="/videos/jul_scaled_ss1.mp4" type="video/mp4">
+    </video>
+</center> 
+
+However, in winter, the turbulence is full of both large and small vortices, and large-scale strain is evident:
+<center>
+    <video autoplay="autoplay" loop="loop" width="566" height="584">
+          <source src="/videos/jan_ss1.mp4" type="video/mp4">
+    </video>
+</center> 
+
+Thus, the dynamics of buoyancy anomalies at the ocean surface are inherently seasonal due to the seasonality in upper ocean density stratification. This seasonality implies a seasonality in the vertical velocity, the dispersion of tracers, and in the distribution of kinetic energy across horizontal scales.

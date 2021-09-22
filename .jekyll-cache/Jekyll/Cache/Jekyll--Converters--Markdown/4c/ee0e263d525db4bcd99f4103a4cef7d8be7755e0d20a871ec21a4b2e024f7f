@@ -1,0 +1,14 @@
+I"´<h1 id="welcome">Welcome.</h1>
+
+<p>I am a PhD candidate in the <a href="https://aos.princeton.edu">Program in Atmospheric &amp; Oceanic Sciences</a> at <a href="https://www.princeton.edu">Princeton University</a>  where I am advised by <a href="https://stephengriffies.github.io/">Stephen Griffies</a>.</p>
+
+<p>You can reach me at <a href="mailto:hyassin@princeton.edu"><em>hyassin</em>@<strong>Princeton</strong>.edu</a>.</p>
+
+<center>
+    <video autoplay="autoplay" loop="loop" width="566" height="584">
+          <source src="/videos/2D_kf4_s1.mp4" type="video/mp4" />
+    </video>
+</center>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The above video shows the vorticity from a simulation of two-dimensional turbulence using the python [`pyqg` pseudo-spectral model](https://github.com/pyqg/pyqg). Red is positive vorticity whereas blue is negative vorticity.
+</code></pre></div></div>
+:ET

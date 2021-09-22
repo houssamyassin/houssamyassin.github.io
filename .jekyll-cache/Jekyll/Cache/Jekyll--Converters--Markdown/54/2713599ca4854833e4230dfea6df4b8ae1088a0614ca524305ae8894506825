@@ -1,0 +1,14 @@
+I"@<h2 id="articles">Articles</h2>
+
+<ol reversed="reversed">
+  <li><strong>Yassin, H.</strong> &amp; Griffies, S. M., (in prep.): An inverse cascade arrest for surface quasigeostrophic dynamics through nonlinearity depletion.
+    <blockquote>
+      <p>Traditional surface quasigeostrophic theory assumes a vertically uniform stratification. As a consequence, the theory is only valid at horizontal scales smaller than 10 km (in the mid-latitude open ocean). At larger scales, the vertical structure of the ocean’s stratification becomes important. We present a generalization of surface quasigeostrophic theory that accounts for the ocean’s vertical stratification. We find that the seasonality of upper ocean stratification (in particular, the seasonality in mixed-layer depth) implies a seasonality in surface quasigeostrophic turbulence. Deep wintertime mixed-layers lead to a surface quasigeostrophic turbulence with strong buoyancy gradients, vortices spanning a wide range of scales, and with large-scale strain evident. In contrast, shallow summertime mixed-layers lead to a surface quasigeostrophic turbulence that is spatially local, lacks large-scale strain, and appears diffuse in space. The variable stratification theory also predicts a seasonal kinetic energy spectrum. If the submesoscales (1-100 km) are in the forward cascade of buoyancy variance, the theory predicts a wintertime spectrum proportional to 𝑘−7/3. In contrast, the lack of scale invariance across the submesoscales in summer causes the cascade theory to fail. However, simulations generally suggest a kinetic energy spectrum that is flatter in summer than in winter. This seasonality is opposite to that found in the ocean at the submesoscales. We conclude by suggesting that submesoscale interior quasigeostrophic turbulence must be seasonal as well because it also depends on the vertical structure of the ocean stratification.</p>
+    </blockquote>
+  </li>
+  <li><strong>Yassin, H.</strong> &amp; Griffies, S. M., (in prep.): Seasonality in surface quasigeostrophic dynamics with variable stratification.</li>
+  <li><strong>Yassin, H.</strong> &amp; Griffies, S. M., (submitted): <a href="https://arxiv.org/abs/2101.07432">On the discrete normal modes of quasigeostrophic theory.</a></li>
+  <li><strong>Yassin, H.</strong>, (2021): <a href="/p2.pdf">Normal modes with boundary dynamics in geophysical fluids.</a> <em>Journal of Mathematical Physics</em>, <strong>64</strong>, 093102. <a href="https://doi.org/10.1063/5.0048273">doi:10.1063/5.0048273</a></li>
+  <li>Van den Bremer, T. S., <strong>Yassin, H.</strong> &amp; Sutherland, B. R. (2019): <a href="/p1.pdf">Lagrangian transport by vertically confined internal wavepackets.</a> <em>Journal of Fluid Mechanics</em>, <strong>864</strong>, 348-380. <a href="https://doi.org/10.1017/jfm.2019.30">doi:10.1017/jfm.2019.30</a></li>
+</ol>
+:ET

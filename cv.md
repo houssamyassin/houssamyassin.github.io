@@ -4,6 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
+([Link to detailed CV](/CV.pdf))
 
 # Positions.
 
@@ -12,7 +13,7 @@ permalink: /cv/
 
 *Adviser:* [Stephen Griffies](https://stephengriffies.github.io/).
 
-*Project:* Geostrophic turbulence with variable stratification.
+*Project:* Surface geostrophic turbulence with variable stratification.
 
 ---
 
