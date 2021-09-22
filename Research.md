@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 # Research
->(A brief summary for specialists can be found on the [Publications](/Publications) page. Videos of the [summertime](/videos/jul_scaled_ss1.mp4) and [wintertime](/videos/jan_ss1.mp4) surface quasigeostrophic turbulence are below.)
+>(A brief summary for specialists can be found on the [Publications](/Publications) page. Videos of [summertime](/videos/jul_scaled_ss1.mp4) and [wintertime](/videos/jan_ss1.mp4) surface quasigeostrophic turbulence are below.)
 
 ### Geostrophic turbulence
 
@@ -24,7 +24,7 @@ My PhD dissertation answers the above two questions when the geostrophic turbule
 
 The theory for such flows is developed in [Blumen (1978)](https://doi.org/10.1175/1520-0469(1978)035<0774:UPVFPI>2.0.CO;2) and [Held et al. (1995)](https://doi.org/10.1017/S0022112095000012). However, this theory assumes that the density stratification does not change with depth. The following animation shows how this turbulence looks like. The animation is from a 400 km by 400 km [`pyqg`](https://github.com/pyqg/pyqg) simulations where red areas indicate lighter fluid whereas blue areas indicate denser fluid.
 <center>
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="566" height="584">
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
           <source src="/videos/SQG_kf4_s1.mp4" type="video/mp4">
     </video>
 </center>
@@ -34,14 +34,14 @@ However the ocean does not have constant density stratification. Indeed, the den
 
 In summer, the turbulence is diffuse and highly local in space:
 <center>
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="566" height="584">
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
           <source src="/videos/jul_scaled_ss1.mp4" type="video/mp4">
     </video>
 </center> 
 
 However, in winter, the turbulence is full of both large and small vortices, and large-scale strain is evident:
 <center>
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="566" height="584">
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
           <source src="/videos/jan_ss1.mp4" type="video/mp4">
     </video>
 </center> 
