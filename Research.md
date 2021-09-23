@@ -14,7 +14,7 @@ I study geostrophic turbulence---the slowly evolving, large-scale turbulence in 
 - How does the fluid's density stratification impact the resulting turbulence? 
 - What is the relationship between the vertical structure of geostrophic turbulence and the distribution of energy across horizontal scales? 
 
-Answering these questions is important for understanding the physics of upper ocean turbulence at horizontal scales of 1-100 km. At these scales, the vertical structure of geostrophic turbulence is seasonal and is correlated with the seasonality in upper ocean stratification. Turbulence at these horizontal scales is critical for the exchange of heat, carbon, and oxygen between the ocean and atmosphere, and may be important for Earth's climate. However, this turbulence occurs at length scales that are too small to be resolved in global climate models.
+Answering these questions is important for understanding the physics of upper ocean turbulence at horizontal scales of 1-100 km. Turbulence at these horizontal scales is critical for the exchange of heat, carbon, and oxygen between the ocean and atmosphere, and may be important for Earth's climate. However, this turbulence occurs at length scales that are too small to be resolved in global climate models.
 
 ### The turbulence of surface buoyancy anomalies
 
