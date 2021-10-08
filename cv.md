@@ -6,18 +6,18 @@ permalink: /cv/
 
 ([Link to detailed CV](/CV.pdf))
 
-# Positions.
+# Positions
 
-#### 2019--(2022).
+#### 2019--(2022)
 **Doctor of Philosophy** in *Atmospheric & Oceanic Sciences* (anticipated), Princeton University.
 
 *Adviser:* [Stephen Griffies](https://stephengriffies.github.io/).
 
-*Project:* Surface geostrophic turbulence with variable stratification.
+*Project:* Surface quasigeostrophic turbulence with variable stratification.
 
 ---
 
-#### Summer 2019.
+#### Summer 2019
 [**Fellow**](https://gfd.whoi.edu/archive/program-fellows/) of the [Geophysical Fluid Dynamics Program](https://gfd.whoi.edu/gfd-program-profile/), Woods Hole Oceanographic Institution.
 
 *Advisers:* [Ali Mashayek](https://www.mashayek.com) and [Geoff Stanley](https://geoffstanley.github.io/index.html).
@@ -26,7 +26,7 @@ permalink: /cv/
 
 ---
 
-#### 2017--2019.
+#### 2017--2019
 
 **Master of Arts** in *Atmospheric & Oceanic Sciences*, Princeton University.
 
@@ -36,7 +36,7 @@ permalink: /cv/
 
 ---
 
-#### 2013--2017.
+#### 2013--2017
 **Bachelor of Science** with Honors in *Mathematical Physics*, University of Alberta.
 
 *Projects:*
@@ -53,7 +53,7 @@ permalink: /cv/
 
 ---
 
-# Select Awards.
+# Select Awards
 
 **2020:** Princeton Energy and Climate Scholar.
 
