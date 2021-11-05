@@ -4,12 +4,12 @@ title: CV
 permalink: /cv/
 ---
 
-([Link to detailed CV](/CV.pdf))
+([Link to detailed CV](/cv.pdf))
 
 # Positions
 
 #### 2019--(2022)
-**Doctor of Philosophy** in *Atmospheric & Oceanic Sciences* (anticipated), Princeton University.
+**PhD** in *Atmospheric & Oceanic Sciences* (anticipated), Princeton University.
 
 *Adviser:* [Stephen Griffies](https://stephengriffies.github.io/).
 
