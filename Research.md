@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 # Research
->(A brief summary for specialists is located on the [Publications](/Publications) page. Videos of [summertime](/videos/jul_scaled_ss1.mp4) and [wintertime](/videos/jan_ss1.mp4) surface quasigeostrophic turbulence are below.)
+
 
 ### Geostrophic turbulence
 
