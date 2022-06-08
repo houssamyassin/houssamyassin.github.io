@@ -8,7 +8,7 @@ title: Home
 
 I am a PhD candidate in the [Program in Atmospheric & Oceanic Sciences](https://aos.princeton.edu) at [Princeton University](https://www.princeton.edu)  where I am advised by [Dr. Stephen Griffies](https://stephengriffies.github.io/). 
 
-You can reach me at [*hyassin*@**Princeton**.edu](mailto:hyassin@princeton.edu).  My work can be found [here](/Publications) and you can watch videos of surface quasigeostrophic eddies and jets [here](/Research).
+You can reach me at [*hyassin*@**Princeton**.edu](mailto:hyassin@princeton.edu).  My work can be found [here](/publications) and you can watch videos of surface quasigeostrophic eddies and jets [here](/research).
 
 <center>
     <video autoplay="autoplay" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" loop="loop" width="65%" height="auto">
