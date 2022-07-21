@@ -15,6 +15,6 @@ permalink: /publications/
 0. Van den Bremer, T. S., **Yassin, H.** & Sutherland, B. R. (2019): Lagrangian transport by vertically confined internal wavepackets. *Journal of Fluid Mechanics*, **864**, 348-380. [doi:10.1017/jfm.2019.30](https://doi.org/10.1017/jfm.2019.30)
 {: reversed="reversed"}
 
-
-#### Dissertation
-**Yassin, H.**, (2022): [The Geostrophic Turbulence of Boundary Buoyancy Anomalies.](/ThesisArxiv.pdf) *Princeton University*. 
+---
+### Dissertation
+**Yassin, H.**, (2022): The Geostrophic Turbulence of Boundary Buoyancy Anomalies. *Princeton University.* [arXiv:2207.09591](http://arxiv.org/abs/2207.09591)
