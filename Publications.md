@@ -6,6 +6,8 @@ permalink: /publications/
 
 ## Articles 
 
+[Most of my work is available arXiv](http://arxiv.org/a/yassin_h_2)
+
 0. **Yassin, H.**, (in prep): The geostrophic turbulence of surface modes.
 0. **Yassin, H.**, (in review): The buoyancy staircase limit in surface quasigeostrophic turbulence. [arXiv:2206.03155](https://arxiv.org/abs/2206.03155)
 0. Sutherland, B. R. & **Yassin, H.**, (in review): The nonlinear evolution of internal tides. Part 2: Lagrangian transport by modulated waves.
