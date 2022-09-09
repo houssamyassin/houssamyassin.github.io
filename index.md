@@ -13,7 +13,7 @@ I also have more mathematical work on the [Fourier analysis of geophysical waves
 
 Finally, I have also worked on the [transport](https://doi.org/10.1017/jfm.2019.30) induced by [internal gravity waves](https://doi.org/10.1017/jfm.2022.690). This transport is analogous to the [Stokes drift](https://en.wikipedia.org/wiki/Stokes_drift) induced by surface gravity waves, but occurs throughout the volume of the fluid.
 
-My work can be found [here](/publications). You can watch animations of the turbulent systems I study [here](/research). You can reach me at [*houssam*@**ualberta**.ca](mailto:houssam@ualberta.edu). 
+My work can be found [here](/publications). You can watch animations of the turbulent systems I study [here](/research). You can reach me at [*houssam*@**ualberta**.ca](mailto:houssam@ualberta.ca). 
 
 <center>
     <video autoplay="autoplay" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" loop="loop" width="65%" height="auto">
