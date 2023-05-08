@@ -15,13 +15,13 @@
 /**************/
 
 #listed{
-	font: 22px/1.1 'Wremena';
+	font: 22px/1.1 $bodyFont;
 	h4 {
 	    line-height: 1.2;
 	}
 	p {
 	  margin: 10px 0;
-      font: 22px/1.1 'Wremena';
+      font: 22px/1.1 $bodyFont;
 	  margin: 7.5px 0;
 	}
 	
@@ -37,13 +37,14 @@ html {
 
 body {
   background: $white;
-  font: 20px/1.4 'Wremena';
+  font: 18px/1.4 $bodyFont;
   color: $darkGray;
+  background-color: $white;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 900px;
   padding: 0 10px;
   width: 100%;
 }
@@ -51,13 +52,13 @@ body {
 blockquote {
   color: #darkGray;
   padding: 0 3em;
-  font: 18px/1.1 'Wremena';
+  font: 18px/1.1 $bodyFont;
   margin-top: -10px;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Glacial';
+  font-family: $headerFont;
   color: $darkerGray;
   font-weight: bold;
 
@@ -95,7 +96,7 @@ p {
 }
 
 a {
-  color: $red;
+  color: $styleColor;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -173,7 +174,7 @@ img {
 /*********************/
 
 #header-text-image{
- height: 75px;
+ height: 55px;
  display: flex;
  justify-content: center;
  align-content: center;
@@ -191,7 +192,7 @@ img {
   width: 100px;
   height: 100px;
   margin-right: 25px;
-
+  
   @include mobile {
     float: none;
     display: block;
@@ -199,15 +200,17 @@ img {
   }
 
   img {
-    border-radius: 50%;
+    border-radius: 30%;
   }
 }
+
+/// Title
 
 .site-name {
 	display: block;
   color: $darkGray;
   cursor: pointer;
-  font-family: 'Glacial';
+  font-family: $headerFont;
   font-weight: 300;
   font-size: 40px;
   font-weight: bold;
@@ -236,8 +239,8 @@ img {
 
 .masthead {
   padding: 10px 0;
-  border-bottom: 2px solid $black;
-  border-top: 2px solid $black;
+  border-bottom: 3px solid $darkGray;
+  border-top: 0px solid $darkGray;
   text-align: center;
 
   @include mobile {
@@ -257,8 +260,8 @@ img {
 
 nav {
   float: none;
-  font-family: 'Glacial';
-  font-size: 30px;
+  font-family: $headerFont;
+  font-size: 25px;
 
   @include mobile {
     float: none;
@@ -267,7 +270,8 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     color: $darkGray;
     font-weight: 300;
     letter-spacing: 1px;
