@@ -1,19 +1,24 @@
 ---
 layout: page
 title: Home
+image: /images/SurfaceSpeed.png
 ---
 
 # Welcome
 
-I recently obtained my PhD in [Atmospheric & Oceanic Sciences](https://aos.princeton.edu) from [Princeton University](https://www.princeton.edu), where I was advised by [Dr. Stephen Griffies](https://stephengriffies.github.io/). Prior to attending Princeton University, I obtained a BSc in Mathematical Physics from the [University of Alberta](https://www.ualberta.ca) where I worked with [Prof. Bruce Sutherland](https://sites.ualberta.ca/~bsuther/).
 
-My most recent work is on a [quasi-2D turbulence regime](https://doi.org/10.1175/JPO-D-22-0040.1) that is relevant for rotating stratified fluids (e.g., planetary atmospheres or oceans). I created a new theoretical model for this class of turbulence and I developed a theory for how energy is distributed across spatial scales. In addition, I used this new model to investigate the formation of [anisotropic structures](https://arxiv.org/abs/2206.03155) arising from the interaction of waves with turbulence. This work is likely to be relevant for the upcoming [SWOT satellite](https://en.wikipedia.org/wiki/Surface_Water_and_Ocean_Topography) mission which will provide data on upper ocean turbulence at unprecedented length scales. More details can be found [here](/research).
+I am a Research Associate in [Applied Mathematics at CU Boulder](https://www.colorado.edu/amath/), where I primarily work with [Ian Grooms](https://www.colorado.edu/amath/grooms), and a member of the [Ocean Transport and Eddy Energy Climate Process Team](https://ocean-eddy-cpt.github.io). I obtained my PhD in [Atmospheric & Oceanic Sciences](https://aos.princeton.edu) from [Princeton University](https://www.princeton.edu), where I was advised by [Stephen Griffies](https://stephengriffies.github.io/). Prior to attending Princeton University, I obtained a BSc in Mathematical Physics from the [University of Alberta](https://www.ualberta.ca) where I worked with [Bruce Sutherland](https://sites.ualberta.ca/~bsuther/).
 
-I also have more mathematical work on the [Fourier analysis of geophysical waves](https://doi.org/10.1063/5.0048273). This work describes the mathematical properties of Fourier expansions for systems for dynamically-active boundaries. Such systems are common in geophysical fluids (e.g., surface gravity waves, [Rossby edge waves](https://doi.org/10.1175/JPO-D-21-0199.1), capillary waves).
+<p align="center">
+  <img src="{{ page.image | relative_url }}" alt="Surface Speed">
+</p>
 
-Finally, I have also worked on the [transport](https://doi.org/10.1017/jfm.2019.30) induced by [internal gravity waves](https://doi.org/10.1017/jfm.2022.690). This transport is analogous to the [Stokes drift](https://en.wikipedia.org/wiki/Stokes_drift) induced by surface gravity waves, but occurs throughout the volume of the fluid.
+## Research 
 
-My work can be found [here](/publications). You can watch animations of the turbulent systems I study [here](/research). You can reach me at [*houssam*@**ualberta**.ca](mailto:houssam@ualberta.ca). 
+Climate models simulate the fluid dynamics of the ocean on a grid, with the ocean component having grid cells with dimensions of 25-100 km. However, even with grid cells as small as 25km, ocean models cannot fully resolve ocean geostrophic turbulence, which is the analogue to the ‘weather’ of the atmosphere. This turbulence plays a vital role in accurately simulating both the broader ocean structure and the exchange of heat and carbon between the atmosphere and ocean—crucial for long-term climate projections. My research addresses this challenge in two ways. First, I develop theory for ocean turbulence that can explain observations from satellites and high-resolution numerical models. Second, I try to leverage our theoretical understanding of turbulence to improve climate models by explicitly incorporating the impact of the unresolved turbulence into the models. Through these approaches, my goal is to enhance the fidelity of climate models, thereby contributing to more robust and accurate climate projections.
+
+
+My work can be found [here](/publications). You can watch animations of the turbulent systems I study [here](/research/sqg). You can reach me at [Houssam.Yassin@**colorado**.edu](mailto:Houssam.Yassin@colorado.edu). 
 
 <center>
     <video autoplay="autoplay" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" loop="loop" width="65%" height="auto">

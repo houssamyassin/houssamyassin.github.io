@@ -2,60 +2,35 @@
 layout: page
 title: Research
 permalink: /research/
+image: /images/sshstd.png
 ---
 
 # Research
 
+## Current work
 
-### Geostrophic turbulence
+As part of the [Ocean Transport and Eddy Energy Climate Process Team](https://ocean-eddy-cpt.github.io), I am working on two projects aimed at improving our understanding of ocean turbulence and its representation in ocean models.
 
-I study geostrophic turbulence---the slowly evolving, large-scale turbulence in the atmosphere and ocean that is modified by Earth's rotation, with a focus on the turbulence induced by geostrophic boundary buoyancy anomalies (e.g., buoyancy anomalies at the ocean's surface). My work shows that the density stratification's vertical structure controls the interaction range of surface buoyancy anomalies and the dispersion of surface-trapped Rossby waves. As a result, the density stratification controls the distribution of energy across horizontal scales as well as the dynamics of surface quasigeostrophic jets.
+My first project is on improving the representation of mesoscale eddies in the 1/4° configuration of the ocean component of the [Community Earth System Model (CESM)](https://www.cesm.ucar.edu). Mesoscale ocean eddies, which can be thought of as being the ‘weather’ of the ocean, are either inadequately resolved by the model or are strongly dissipated by the artificially high viscosities imposed to maintain numerical stability. One way of addressing this deficiency is through recently proposed 'backscatter' schemes, which have been designed to reintroduce kinetic energy back into the resolved ocean circulation. The primary aim of this project is to compare the various previously proposed backscatter schemes in a realistic model and identify the optimal eddy parameterization to enhance the fidelity of the 1/4° configuration of the ocean component of CESM.
 
-### The interaction range of surface buoyancy anomalies
+<p align="center">
+  <img src="{{ page.image | relative_url }}" alt="Relative difference in SSH standard deviation between AVISO and model.">
+</p>
 
-The theory for surface buoyancy anomalies is developed in [Blumen (1978)](https://doi.org/10.1175/1520-0469(1978)035<0774:UPVFPI>2.0.CO;2) and [Held et al. (1995)](https://doi.org/10.1017/S0022112095000012). However, this theory assumes that the density stratification does not change with depth. The following animation, which shows the buoyancy anomaly at the ocean's surface in a 400 km by 400 km domain, illustrates what this turbulence looks like. Red areas indicate lighter fluid whereas blue areas indicate denser fluid.
-<center>
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
-          <source src="/videos/SQG_kf4_s1.mp4" type="video/mp4">
-    </video>
-</center>
+My second project is on understanding the seasonal cycle of geostrophic turbulence in the ocean. Recent observations and high-resolutions numerical simulations have shown that upper ocean geostrophic turbulence experiences a strong seasonal cycle, following the seasonal cycle of mixed-layer depth. However, the underlying dynamics behind this seasonality remains poorly understood. For this project, I have derived an extension of the [quasigeostrophic model](https://en.wikipedia.org/wiki/Quasi-geostrophic_equations) that allows for time-dependent stratification. With this new model, we are able to evaluate two mechanisms that we hypothesize to contribute to the seasonal cycle:
+1. the seasonal injection of kinetic energy into the mixed-layer from mixed-layer instability
+2. the modulation of nonlinear eddy interactions by changes in mixed layer depth, which acts to redistribute energy across horizontal scale.
 
-However the ocean does not have a uniform density stratification. Instead, the ocean's density stratification is not only depth-dependent but seasonal as well. As a consequence, the theory developed in [Blumen (1978)](https://doi.org/10.1175/1520-0469(1978)035<0774:UPVFPI>2.0.CO;2) and [Held et al. (1995)](https://doi.org/10.1017/S0022112095000012) is only relevant at horizontal scales smaller than 10 km in the mid-latitude open ocean. At larger scales, the ocean's density stratification must be taken into account. My work generalizes the theory to account for vertically variable density stratification. The resulting difference between summertime and wintertime turbulence is striking. 
+Our approach aims to identify the essential dynamics necessary for developing improved subgrid-scale parameterizations for climate models, enabling a more accurate representation of the ocean mesoscale seasonal cycle.
 
-In summer, the turbulence is diffuse and highly local in space, with buoyancy anomalies exhibiting a short interaction range:
-<center>
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
-          <source src="/videos/jul_scaled_ss1.mp4" type="video/mp4">
-    </video>
-</center> 
+## Past work
 
-However, in winter, buoyancy anomalies have a longer interaction range and the flow is more non-local. The turbulence is characterized by thin surface buoyancy filaments as well as the presence of vortices with a wide range of sizes:
-<center>
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
-          <source src="/videos/jan_ss1.mp4" type="video/mp4">
-    </video>
-</center> 
+Much of my PhD was on a [quasi-2D turbulence regime](https://doi.org/10.1175/JPO-D-22-0040.1) that is relevant for rotating stratified fluids (e.g., planetary atmospheres or oceans). I created a new theoretical model for this class of turbulence and I developed a theory for how energy is distributed across spatial scales. In addition, I used this new model to investigate the formation of [anisotropic structures](https://doi.org/10.1017/jfm.2023.318) arising from the interaction of waves with turbulence. This work is likely to be relevant for the upcoming [SWOT satellite](https://en.wikipedia.org/wiki/Surface_Water_and_Ocean_Topography) mission which will provide data on upper ocean turbulence at unprecedented length scales. More details can be found [here](/research/sqg).
 
-The dynamics of buoyancy anomalies at the ocean's surface are therefore inherently seasonal due to the seasonality in upper ocean density stratification. Moreover, this seasonality controls the shape of the surface kinetic energy spectrum implied by surface quasigeostrophic turbulence. 
+I also have more technical work on the [Fourier analysis of geophysical waves](https://doi.org/10.1063/5.0048273). This work describes the mathematical properties of Fourier expansions for systems for dynamically-active boundaries. Such systems are common in geophysical fluids (e.g., surface gravity waves, [Rossby edge waves](https://doi.org/10.1175/JPO-D-21-0199.1), capillary waves).
 
-### Buoyancy staircases in surface quasigeostrophic turbulence
+Finally, I have also worked on the [transport](https://doi.org/10.1017/jfm.2019.30) induced by [internal gravity waves](https://doi.org/10.1017/jfm.2022.690). This transport is analogous to the [Stokes drift](https://en.wikipedia.org/wiki/Stokes_drift) induced by surface gravity waves, but occurs throughout the volume of the fluid.
 
-Under certain circumstances, the interplay of surface-trapped Rossby waves with geostrophic turbulence results in a spontaneous reorganization of the flow into a surface buoyancy staircase: a meridional buoyancy profile consisting of mixed-zones punctuated by sharp buoyancy gradients, with eastward jets centred at the sharp
-gradients and weaker westward flows in between. 
-
-Moreover, the dynamics of the resulting jets depends on the density stratification's vertical structure. In uniform stratification, we obtain (where yellow indicated more buoyant fluid and blue less buoyant fluid): 
-<center>
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
-          <source src="/videos/alpha1_J21_s1.mp4" type="video/mp4">
-    </video>
-</center> 
-Over decreasing stratification, the dynamics are similar, but with eastward propagating along jet waves.
-<center>
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
-          <source src="/videos/chstr15_J21_s1.mp4" type="video/mp4">
-    </video>
-</center> 
-Finally, over increasing stratification, we obtain meandering jets whose shape evolves in time due to the westward propagation of weakly dispersive along jet waves.
 <center>
     <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" width="65%" height="auto">
           <source src="/videos/alpha05_J42_s1.mp4" type="video/mp4">
