@@ -17,9 +17,9 @@ My first project is on improving the representation of mesoscale eddies in the 1
   <img src="{{ page.image | relative_url }}" alt="Relative difference in SSH standard deviation between AVISO and model.">
 </p>
 
-My second project is on understanding the seasonal cycle of geostrophic turbulence in the ocean. Recent observations and high-resolutions numerical simulations have shown that upper ocean geostrophic turbulence experiences a strong seasonal cycle, following the seasonal cycle of mixed-layer depth. However, the underlying dynamics behind this seasonality remains poorly understood. For this project, I have derived an extension of the [quasigeostrophic model](https://en.wikipedia.org/wiki/Quasi-geostrophic_equations) that allows for time-dependent stratification. With this new model, we are able to evaluate two mechanisms that we hypothesize to contribute to the seasonal cycle:
-1. the seasonal injection of kinetic energy into the mixed-layer from mixed-layer instability
-2. the modulation of nonlinear eddy interactions by changes in mixed layer depth, which acts to redistribute energy across horizontal scale.
+My second project focuses on understanding the seasonal cycle of geostrophic turbulence in the ocean. Recent observations and high-resolution numerical simulations have revealed a robust seasonal cycle in upper ocean geostrophic turbulence, following the seasonal cycle of mixed-layer depth. However, the underlying dynamics driving this seasonality remain poorly understood. In this project, I have developed an extension of the [quasigeostrophic model](https://en.wikipedia.org/wiki/Quasi-geostrophic_equations) that allows for time-dependent stratification. This new model enables the evaluation of two mechanisms contributing to the seasonal cycle:
+1. The seasonal injection of kinetic energy into the mixed layer from mixed-layer instability.
+2. The modulation of nonlinear eddy interactions by changes in mixed layer depth, redistributing energy across horizontal scales.
 
 Our approach aims to identify the essential dynamics necessary for developing improved subgrid-scale parameterizations for climate models, enabling a more accurate representation of the ocean mesoscale seasonal cycle.
 
