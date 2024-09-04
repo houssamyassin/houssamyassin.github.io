@@ -14,6 +14,7 @@
 /* BASE RULES */
 /**************/
 
+
 #listed{
 	font: 22px/1.1 $bodyFont;
 	h4 {
@@ -36,21 +37,43 @@ html {
 }
 
 body {
-  background: $white;
-  font: 18px/1.4 $bodyFont;
-  color: $darkGray;
-  background-color: $white;
+  background: $backgroundColor;
+  font: 20px/1.5 $bodyFont;
+  font-weight:300;
+  //padding-top: 20px; /* Add vertical padding at the top */
+  //padding-bottom: 20px; /* Add vertical padding at the bottom */
+  color: $bodyColor;
+  background-color: $backgroundColor;
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed for your breakpoints */
+  .container {
+    padding-left: 15px; /* Increase left padding */
+    padding-right: 15px; /* Increase right padding */
+  }
+
+  body {
+    padding-left: 10px; /* Add padding to the body if needed */
+    padding-right: 10px;
+  }
 }
 
 .container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 800px;
   padding: 0 10px;
   width: 100%;
+  //background-color: $containerColor;
 }
 
+//.content-container {
+//    background-color: $containerColor;
+//    border-radius: 15px; 
+//	//margin: 10px;
+//}
+
 blockquote {
-  color: #darkGray;
+  color: $bodyColor;
   padding: 0 3em;
   font: 18px/1.1 $bodyFont;
   margin-top: -10px;
@@ -59,12 +82,22 @@ blockquote {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $headerFont;
-  color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  color: $headerColor;
+  font-weight: 600;
+  font-style: normal; 
+  
+  //display: inline; // Change to inline to limit the background to the text
+  //background-color: $headerBackgroundColor;
+    
+  //line-height: 1.7;
+  //margin: 1em 0 15px;
   padding: 0;
+  text-align: center; // Add this line to center the headings
+  
+  
+  //border-top: 1px solid $headerBorderColor;
+  //border-bottom: 0px solid $headerBorderColor;
+  
 
   @include mobile {
     line-height: 1.4;
@@ -72,35 +105,51 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 24px;
+  //border-top: 2.5px solid $headerBorderColor;
+  padding-top: 15px; 
+  border-bottom: 1px solid $headerBorderColor;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 21px;
+  border-bottom: 1px solid $headerBorderColor;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 21px;
   margin: 1em 0 15px;
 }
 
+h5 {
+  font-size: 18px;
+}
+
 p {
-  margin: 15px 0;
+  margin-top: 15px; 
+  margin-bottom: 15px; 
 }
 
 a {
-  color: $styleColor;
-  text-decoration: none;
-	cursor: pointer;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: $underlineColor;
+  text-decoration-thickness: 1.25px; // Adjust the thickness as needed
+  text-underline-offset: 2px; // Adjust the offset as needed
+  
+  cursor: pointer;
   &:hover, &:active {
-    color: $gray;
+    color: $highlightColor;
+	text-decoration-color: $highlightColor;
   }
 }
 
@@ -144,17 +193,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $bodyColor;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $selectionTextColor;
+  background: $selectionColor;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $selectionTextColor;
+  background: $selectionColor;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -173,58 +222,6 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-#header-text-image{
- height: 55px;
- display: flex;
- justify-content: center;
- align-content: center;
- margin-top:25px;
-}
-
-#header-text{
-	@include mobile{
-   	 margin-top: 0px;
-    }
-}
-
-.site-avatar {
-  float: center;
-  width: 100px;
-  height: 100px;
-  margin-right: 25px;
-  
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 5 auto;
-  }
-
-  img {
-    border-radius: 30%;
-  }
-}
-
-/// Title
-
-.site-name {
-	display: block;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $headerFont;
-  font-weight: 300;
-  font-size: 40px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  
-  position: relative; 
-  top: -35%;
-  
-  @include mobile {
-	  font-size:30px;
-	  position: relative;
-	  top: -0%;
-  }
-}
 
 
 
@@ -232,54 +229,191 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
 
 .masthead {
-  padding: 10px 0;
-  border-bottom: 3px solid $darkGray;
-  border-top: 0px solid $darkGray;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; // Ensures vertical alignment
+  width: 100%;
+  padding-bottom: 40px; 
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  
 
   @include mobile {
+    flex-direction: row;
+    flex-wrap: wrap; 
     text-align: center;
   }
-}
 
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-nav {
-  float: none;
-  font-family: $headerFont;
-  font-size: 25px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 50px;
-    margin-right: 50px;
-    color: $darkGray;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
+  .site-name {
+	font-family: $titleFont;
+    font-style: normal; 
+    font-size: 30px;
+    font-weight: 600;
+    color: $titleColor;
+    cursor: pointer;
+    background-color: $backgroundColor;
+    border-bottom: 0px solid $headerBorderColor;
+    border-top: 0px solid $headerBorderColor;
+    letter-spacing: 0px;
+	
+	@include mobile {
+	   font-size: 24px; /* Adjust font size for smaller screens */
+	}
+	
+	a {
+	   text-decoration: underline;
+	   text-decoration-color: $underlineColor;
+	   text-decoration-thickness: 2px;
+	}
+	
+    &::before {
+      content: none; // Bullet character
     }
   }
+
+  nav {
+    font-family: $headerFont;
+    font-size: 18px; 
+
+    @include mobile {
+      font-size: 16px;
+    }
+
+    a {
+      margin-left: 5px;
+      margin-right: 5px;
+      font-weight: 600;
+      letter-spacing: 1px;
+
+      @include mobile {
+        margin: 0 7px;
+      	}
+  	}
+  	a.active {
+	  color: $activeHeaderColor;
+	  text-decoration-color: $activeHeaderColor;
+	  
+      //font-weight: bold; 
+    }
+  }
+}
+//
+
+.education {
+	padding: 20px 0;
+    .institution {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; /* Aligns items at the top */
+        margin-bottom: 20px;
+
+        .details {
+            width: 80%;
+        }
+
+        h5 {
+			text-align: left;
+            font-weight: 600;
+			font-style: normal;
+            font-size: 0.9em;
+            margin-bottom: 0.0em;
+        }
+
+        p {
+            font-size: 0.9em;
+            margin: 0; 
+        }
+
+        .date {
+            width: 10%;
+            text-align: right;
+            font-size: 0.85em;
+            white-space: nowrap;
+			font-style: normal;
+        }
+    }
+}
+
+.index-background-image-container {
+    background-image: url('{{ site.baseurl }}/images/Pacific.jpg'); /* Use the image from your front matter */
+    background-size: cover; /* Cover the entire area */
+    background-position: 50% 35%; /* Center the image */
+    height: 400px; 
+    width: 100%; 
+    padding: 20px; 
+	box-sizing: border-box;
+    border-radius: 30px; 
+}
+
+.publications-background-image-container {
+    background-image: url('{{ site.baseurl }}/images/Jupiter.jpg'); /* Use the image from your front matter */
+    background-size: cover; /* Cover the entire area */
+    background-position: 50% 35%; /* Center the image */
+    height: 400px; 
+    width: 100%; 
+    padding: 20px; 
+	box-sizing: border-box;
+    border-radius: 30px; 
+}
+
+.project-table {
+  table-layout: fixed;
+  margin: 30px auto 0; /* Center the table and add 20px margin on top */
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Ensure the table spans the full width of the container */
+}
+
+.project-table td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.project-table td:first-child {
+  width: 40%; /* First column takes up 30% of the table's width */
+}
+
+.project-table td:last-child {
+  width: 60%; /* Second column takes up 70% of the table's width */
+}
+
+
+.video-container {
+  width: 100%; /* Ensure the video container fills the table cell */
+  max-width: 400px; /* Optionally set a max width for the video */
+}
+
+.project-table h5 {
+  text-align: left;
+}
+
+.project-table p {
+  font: 18px/1.5 $bodyFont;
+}
+///
+
+.research-head {
+  margin: 0;
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Set the width of the table */
+}
+
+.research-head th, .research-head td {
+  padding-right: 10px; /* Add padding */
+  text-align: left; 
+  //vertical-align: top; /* Align content vertically in the middle */
+}
+
+.research-head td:first-child {
+  width: 65%; /* Set the width of the first column to 60% */
+  vertical-align: top;
+}
+
+.research-head td:last-child {
+  width: 35%; /* Set the width of the second column to 40% */
+  //vertical-align: center;
 }
 
 
@@ -289,7 +423,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $bodyColor;
 }
 
 .posts > .post:last-child {
@@ -321,7 +455,85 @@ footer {
     padding-top: 100px;
 	padding-bottom: 25px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 14px;
+}
+
+.video-container {
+  text-align: center;
+}
+
+.video-container video {
+    border-radius: 25px;
+}
+
+.caption {
+  font-family: $bodyFont; 
+  font-size: 14px;    
+  font-style: normal;          
+  color: $bodyColor;                   
+  text-align: center;             
+  margin: 0px auto; /* Centers the caption and adds top margin */
+  width: 60%; /* Adjust this percentage to make the text narrower or wider */
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 
