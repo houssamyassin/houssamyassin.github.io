@@ -392,6 +392,34 @@ img {
 .project-table p {
   font: 18px/1.5 $bodyFont;
 }
+
+/* New media query for small screens */
+@media screen and (max-width: 768px) {
+  .project-table, .project-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .project-table td {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .project-table td:first-child, .project-table td:last-child {
+    width: 100%;
+  }
+
+  .video-container {
+    max-width: 100%; /* Allow the video to take up the full width */
+  }
+  
+  .project-table p {
+    border-bottom: 1px solid $underlineColor; /* Light gray line */
+    padding-bottom: 20px; /* Add some space between the text and the line */
+    margin-bottom: 10px; /* Add some space after the line */
+  }
+}
 ///
 
 .research-head {
