@@ -39,6 +39,20 @@ I address this challenge by developing theories that explain observed ocean turb
 
 ## Research Areas
 <table class="project-table">
+    <tr>
+      <td>
+  		<div class="video-container">
+  		  <video autoplay="autoplay" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto" loop="loop" width="80%" height="auto">
+  		    <source src="/videos/jan_ss1.mp4" type="video/mp4">
+  		  </video>
+  		</div>
+  	</td>
+      <td><h5>Turbulence theory for the upper ocean</h5>
+  		<!--p>We extend the geostrophic turbulence theory for surface buoyancy anomalies to allow for non-uniform density stratification. We show that accounting for density stratification can explain the anomalous properties of ocean turbulence measured by satellites. </p-->
+  		<!--p>Observations have shown that the kinetic energy spectrum of upper ocean turbulence often deviates from theoretical predictions. Here, we develop a turbulence theory that allows for non-uniform density stratification. We show accounting for density stratification can resolve this discrepancy.</p-->
+  		<p>Observations show that the kinetic energy spectrum of upper ocean turbulence not only deviates from theoretical predictions but also exhibits a strong seasonal cycle. I have extended turbulence theory to explain this behavior and am developing a theory to address the consequences of the seasonal cycle on ocean dynamics.</p>
+  	</td>
+    </tr>
   <tr>
     <td>
 		<div class="video-container">
@@ -58,20 +72,6 @@ I address this challenge by developing theories that explain observed ocean turb
 		</p>
 	</td>
   </tr-->
-  <tr>
-    <td>
-		<div class="video-container">
-		  <video autoplay="autoplay" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto" loop="loop" width="80%" height="auto">
-		    <source src="/videos/jan_ss1.mp4" type="video/mp4">
-		  </video>
-		</div>
-	</td>
-    <td><h5>Turbulence theory for the upper ocean</h5>
-		<!--p>We extend the geostrophic turbulence theory for surface buoyancy anomalies to allow for non-uniform density stratification. We show that accounting for density stratification can explain the anomalous properties of ocean turbulence measured by satellites. </p-->
-		<!--p>Observations have shown that the kinetic energy spectrum of upper ocean turbulence often deviates from theoretical predictions. Here, we develop a turbulence theory that allows for non-uniform density stratification. We show accounting for density stratification can resolve this discrepancy.</p-->
-		<p>Observations show that the kinetic energy spectrum of upper ocean turbulence not only deviates from theoretical predictions but also exhibits a strong seasonal cycle. I have extended turbulence theory to explain this behavior and am developing a theory to address the consequences of the seasonal cycle on ocean dynamics.</p>
-	</td>
-  </tr>
   <tr>
     <td>
 		<div class="video-container">
