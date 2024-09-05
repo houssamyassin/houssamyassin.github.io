@@ -62,7 +62,7 @@ I address this challenge by developing theories that explain observed ocean turb
 		</div>
     </td>
     <td><h5>Ocean turbulence in climate models</h5>
-		<p>Climate models use high numerical viscosities to maintain stability, causing the simulated ocean to behave more like maple syrup than water. By re-injecting dissipated energy back into the model, we create a simulated ocean that is more energetic, variable, and less biased, leading to improved climate projections.</p>
+		<p>Climate models use high numerical viscosities to maintain stability, reducing the ocean’s energy and making it behave more like maple syrup than water. By re-injecting this lost energy, my research aims to restore the ocean’s natural variability, reducing biases and improving climate projections.</p>
 	</td>
   </tr>
   <!--tr>
