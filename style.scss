@@ -83,7 +83,7 @@ blockquote {
 h1, h2, h3, h4, h5, h6 {
   font-family: $headerFont;
   color: $headerColor;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal; 
   
   //display: inline; // Change to inline to limit the background to the text
@@ -250,7 +250,7 @@ img {
 	font-family: $titleFont;
     font-style: normal; 
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 300;
     color: $titleColor;
     cursor: pointer;
     background-color: $backgroundColor;
@@ -284,7 +284,7 @@ img {
     a {
       margin-left: 5px;
       margin-right: 5px;
-      font-weight: 600;
+      font-weight: 300;
       letter-spacing: 1px;
 
       @include mobile {
