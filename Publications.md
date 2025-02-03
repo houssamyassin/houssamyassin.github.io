@@ -13,7 +13,7 @@ permalink: /publications/
     <li>
         <span style="font-weight: 600;">The Stochastic GM+E closure: A framework for coupling stochastic backscatter with the Gent and McWilliams parameterization</span><br>
         <span>I. Grooms, N. Agarwal, G. M. Marques, P. Pegion, & <u>H. Yassin</u></span><br>
-        <span><em>Submitted to Journal of Advances in Modeling Earth Systems</em></span><br>
+        <span>Submitted to <em>Journal of Advances in Modeling Earth Systems</em></span><br>
         <span>DOI: <a href="https://doi.org/10.22541/essoar.172118408.85625257/v1">10.22541/essoar.172118408.85625257/v1</a></span>
     </li>
     <li>
